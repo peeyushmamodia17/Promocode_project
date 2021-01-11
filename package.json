@@ -1,0 +1,23 @@
+{
+  "name": "promocode_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Promocode Project",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Promocode"
+  ],
+  "author": "Peeyush Mamodia",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^3.2.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.11"
+  }
+}
